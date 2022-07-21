@@ -1,0 +1,27 @@
+{
+  "private": true,
+  "author": "huangsl <295041649@qq.com>",
+  "scripts": {
+    "dev": "cross-env REACT_APP_ENV=dev UMI_ENV=dev umi dev",
+    "build": "cross-env REACT_APP_ENV=prod UMI_ENV=prod umi build",
+    "postinstall": "umi setup",
+    "setup": "umi setup",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+    "@types/crypto-js": "^4.1.1",
+    "@umijs/max": "^4.0.7",
+    "antd-mobile": "^5.19.0",
+    "antd-mobile-icons": "^0.3.0",
+    "crypto-js": "^4.1.1",
+    "dayjs": "^1.11.4",
+    "deepmerge": "^4.2.2",
+    "umi": "^4.0.7"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "cross-env": "^7.0.3",
+    "typescript": "^4.1.2"
+  }
+}
