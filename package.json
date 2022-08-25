@@ -14,6 +14,7 @@
     "antd-mobile": "^5.19.0",
     "antd-mobile-icons": "^0.3.0",
     "crypto-js": "^4.1.1",
+    "darkreader": "^4.9.57",
     "dayjs": "^1.11.4",
     "deepmerge": "^4.2.2",
     "umi": "^4.0.7"
