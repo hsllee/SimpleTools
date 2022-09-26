@@ -1,13 +1,18 @@
 ﻿export default [
     {
         path: '/',
-        redirect: '/score',
+        redirect: '/menu',
     },
     // {
     //     name: '首页',
     //     path: '/home',
     //     component: './index',
     // },
+    {
+        name: '菜单',
+        path: '/menu',
+        component: './menu',
+    },
     {
         name: '计分',
         path: '/score',

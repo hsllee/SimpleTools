@@ -13,6 +13,14 @@ export default function Layout() {
 
     const [layoutTheme, setLayoutTheme] = useState<'light' | 'dark'>();
 
+    const left = (
+        <div style={{fontSize: 24}}>
+            <Space style={{'--gap': '16px'}}>
+                <Link to="/menu">首页</Link>
+            </Space>
+        </div>
+    );
+
     const right = (
         <div style={{fontSize: 24}}>
             <Space style={{'--gap': '16px'}}>
@@ -59,7 +67,7 @@ export default function Layout() {
 
     return (
         <div className={styles.navs}>
-            <NavBar right={right} back={null}>
+            <NavBar left={left} right={right} back={null}>
                 工具箱
             </NavBar>
             <Outlet/>
