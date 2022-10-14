@@ -10,10 +10,16 @@ export default function MenuPage() {
                     <MenuCard name="比赛计分" path="/score"/>
                 </Grid.Item>
                 <Grid.Item>
-                    <MenuCard name="开发中"/>
+                    <MenuCard name="努力开发中..."/>
                 </Grid.Item>
                 <Grid.Item>
-                    <MenuCard name="开发中"/>
+                    <MenuCard name="努力开发中..."/>
+                </Grid.Item>
+                <Grid.Item>
+                    <MenuCard name="努力开发中..."/>
+                </Grid.Item>
+                <Grid.Item>
+                    <MenuCard name="努力开发中..."/>
                 </Grid.Item>
             </Grid>
         </div>
